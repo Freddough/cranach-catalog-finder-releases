@@ -6,6 +6,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Cranach Catalog Finder</title>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Thu, 03 Sep 2026 16:57:53 -0400</pubDate>
+            <link>https://github.com/Freddough/cranach-catalog-finder-releases/releases/latest</link>
+            <sparkle:version>10005</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Cranach Catalog Finder 1.0.4
+
+This corrective release keeps the redesigned workspace visually consistent
+immediately after an in-app update.
+
+- CSS, JavaScript, and logo URLs now include the application version, preventing
+  a browser from combining the new page with files cached by an older release
+- the application shell and frontend assets continue to use no-store response
+  headers as a second layer of protection
+- the corrected home workspace, top navigation, live search, and package panel
+  were rendered and visually checked at the target Retina viewport
+
+No catalog data, saved client work, selections, or retained downloads are
+replaced by this application-only update.
+]]></description>
+            <enclosure url="https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.4/Cranach-Catalog-Finder-1.0.4-arm64.zip" length="285538315" type="application/octet-stream" sparkle:edSignature="A8hDgY76n372GnZakH0R55HhCrXa7qLoEyq08Sh3LEcFlnGyZFGUjutTxXkG4OU8pHXsO68dTxQEPVXFsTFlDA=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Thu, 03 Sep 2026 15:37:22 -0400</pubDate>
             <link>https://github.com/Freddough/cranach-catalog-finder-releases/releases/latest</link>
@@ -13,26 +38,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Cranach Catalog Finder 1.0.3
-
-This release makes the everyday catalog workflow faster and puts the desktop
-controls where the work actually happens:
-
-- a new five-tab workspace for Clients, Packages, Home, Catalog, and Settings
-- live search results that filter while you type, with selected products moving
-  into a persistent package panel on the right
-- a clearer Google-like home view using the Cranach wordmark and a focused search
-  experience
-- browser-visible Check for Updates and Quit Cranach controls under Settings;
-  Quit also closes the local catalog service safely
-- build-aware browser URLs and no-cache frontend responses so a newly installed
-  update cannot leave an older interface open
-
-Visual proposals, sales quotations, catalog-page packages, saved client work,
-catalog corrections, and retained downloads continue to work with the existing
-catalog data. This application-only update does not replace reviewed content.
-]]></description>
-            <enclosure url="https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.3/Cranach-Catalog-Finder-1.0.3-arm64.zip" length="285539796" type="application/octet-stream" sparkle:edSignature="mHQuuXHUZxNSC9UW2QNVFoO8njNzyb8PatDnOInoYfB6GpXSJuAc084PUHYJBPXJhoPcqrwtb9+aGfE9LMd2AA=="/>
+            <enclosure url="https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.4/Cranach-Catalog-Finder-1.0.3-arm64.zip" length="285539796" type="application/octet-stream" sparkle:edSignature="mHQuuXHUZxNSC9UW2QNVFoO8njNzyb8PatDnOInoYfB6GpXSJuAc084PUHYJBPXJhoPcqrwtb9+aGfE9LMd2AA=="/>
         </item>
         <item>
             <title>1.0.2</title>
@@ -47,6 +53,6 @@ catalog data. This application-only update does not replace reviewed content.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 6QUtDepVwpW2+ktwLnB677tI4h7WkZtgK71Kvtcl3YeV6q2PuTBV3j5iiP2B5g7D17zNCtiCVuqdcsP3/IGjDA==
-length: 3132
+edSignature: gx2GXXdNt/qJWJySSNarGFMAmdZXG3czjm++2d5Xc2jloKaKJrROTnIwaordtOQpsUA7f/aE1U/bY4tpKCNFDw==
+length: 3706
 -->
