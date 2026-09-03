@@ -1,8 +1,39 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Cranach Catalog Finder</title>
+        <item>
+            <title>1.0.3</title>
+            <pubDate>Thu, 03 Sep 2026 15:37:22 -0400</pubDate>
+            <link>https://github.com/Freddough/cranach-catalog-finder-releases/releases/latest</link>
+            <sparkle:version>10004</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Cranach Catalog Finder 1.0.3
+
+This release makes the everyday catalog workflow faster and puts the desktop
+controls where the work actually happens:
+
+- a new five-tab workspace for Clients, Packages, Home, Catalog, and Settings
+- live search results that filter while you type, with selected products moving
+  into a persistent package panel on the right
+- a clearer Google-like home view using the Cranach wordmark and a focused search
+  experience
+- browser-visible Check for Updates and Quit Cranach controls under Settings;
+  Quit also closes the local catalog service safely
+- build-aware browser URLs and no-cache frontend responses so a newly installed
+  update cannot leave an older interface open
+
+Visual proposals, sales quotations, catalog-page packages, saved client work,
+catalog corrections, and retained downloads continue to work with the existing
+catalog data. This application-only update does not replace reviewed content.
+]]></description>
+            <enclosure url="https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.3/Cranach-Catalog-Finder-1.0.3-arm64.zip" length="285539796" type="application/octet-stream" sparkle:edSignature="mHQuuXHUZxNSC9UW2QNVFoO8njNzyb8PatDnOInoYfB6GpXSJuAc084PUHYJBPXJhoPcqrwtb9+aGfE9LMd2AA=="/>
+        </item>
         <item>
             <title>1.0.2</title>
             <pubDate>Wed, 02 Sep 2026 20:35:58 -0400</pubDate>
@@ -11,27 +42,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Cranach Catalog Finder 1.0.2
-
-This release adds two client-ready document formats modeled on Cranach's
-existing sales materials:
-
-- branded landscape proposals with a cover, contents, grouped product pages,
-  selected finish, quantity, price, and closing page
-- portrait sales quotations with customer details, room groupings, quantities,
-  discounts, shipping, totals, order notes, and standard terms
-- editable commercial details for every selected catalog product, while keeping
-  the existing high-resolution image and combined catalog PDF exports
-- a refreshed, export-free catalog baseline whose reviewed product data is
-  unchanged and whose registration timestamp now remains stable across launches
-
-Every document is produced locally from the reviewed catalog. Saved packages,
-catalog corrections, and prior exports remain available after the update.
-]]></description>
-            <enclosure url="https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.2/Cranach-Catalog-Finder-1.0.2-arm64.zip" length="285383038" type="application/octet-stream" sparkle:edSignature="T6l4IHR8MTJOqDoxefTnOcHg8EX7TcoTLVPdBxclCKtkLaepB+HwLwIIV7CkP78oRt+DvDG5gbE1QdbaIuOCDg=="></enclosure>
+            <enclosure url="https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.3/Cranach-Catalog-Finder-1.0.2-arm64.zip" length="285383038" type="application/octet-stream" sparkle:edSignature="T6l4IHR8MTJOqDoxefTnOcHg8EX7TcoTLVPdBxclCKtkLaepB+HwLwIIV7CkP78oRt+DvDG5gbE1QdbaIuOCDg=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: EyJVzus6CZEChQhbc+6I/LrRXlWKY0PZyXlGoR0T1OqlPKmvZYtCxSieeXfQpZLiV09mrwOrXm7v21XrxmWWCA==
-length: 2226
+</rss>
+<!-- sparkle-signatures:
+edSignature: 6QUtDepVwpW2+ktwLnB677tI4h7WkZtgK71Kvtcl3YeV6q2PuTBV3j5iiP2B5g7D17zNCtiCVuqdcsP3/IGjDA==
+length: 3132
 -->

@@ -6,9 +6,9 @@ sections are clearly identified inside Catalog Setup.
 
 ## Download for Mac
 
-[**Download Cranach Catalog Finder for Mac**](https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.2/Cranach-Catalog-Finder-1.0.2-arm64.dmg)
+[**Download Cranach Catalog Finder for Mac**](https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.3/Cranach-Catalog-Finder-1.0.3-arm64.dmg)
 
-Version 1.0.2 works on Apple-silicon Macs with macOS 13 or newer.
+Version 1.0.3 works on Apple-silicon Macs with macOS 13 or newer.
 
 ## Install in 3 steps
 
