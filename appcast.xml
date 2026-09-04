@@ -6,6 +6,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Cranach Catalog Finder</title>
         <item>
+            <title>1.0.5</title>
+            <pubDate>Fri, 04 Sep 2026 13:29:10 -0400</pubDate>
+            <link>https://github.com/Freddough/cranach-catalog-finder-releases/releases/latest</link>
+            <sparkle:version>10006</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Cranach Catalog Finder 1.0.5
+
+This release makes the package workspace smaller, clearer, and easier to scan:
+
+- the new transparent black Cranach wordmark replaces the boxed logo, with the
+  extra Home-page tagline removed
+- the five workspace tabs are centered in a clean header with catalog status
+  details removed from its left and right edges
+- Your Selections now keeps product choices prominent, moves compact package
+  details and save controls to the bottom, and uses “Package name” in place of
+  “Project or room”
+- the global price section has been removed; each selected product still has
+  its own clear Hide prices or Show prices control
+- Clients, Previous packages, and Settings use shorter headings and tighter
+  spacing so the first useful action appears sooner
+- switching the Catalog from Outline to Cards now loads products immediately
+  instead of leaving an empty view
+
+This is an application-only update. It does not replace catalog data, saved
+client work, current selections, or retained downloads.
+]]></description>
+            <enclosure url="https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.5/Cranach-Catalog-Finder-1.0.5-arm64.zip" length="285561596" type="application/octet-stream" sparkle:edSignature="hkpsYAyoluqsSTt0IqEpuIU9mnx7rXsN25oGfy0OBtvwdIdn1acJ6ki3u3Pu4i+EN7kKMSD6wj/VnLta0U8gCw=="/>
+        </item>
+        <item>
             <title>1.0.4</title>
             <pubDate>Thu, 03 Sep 2026 16:57:53 -0400</pubDate>
             <link>https://github.com/Freddough/cranach-catalog-finder-releases/releases/latest</link>
@@ -13,22 +44,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Cranach Catalog Finder 1.0.4
-
-This corrective release keeps the redesigned workspace visually consistent
-immediately after an in-app update.
-
-- CSS, JavaScript, and logo URLs now include the application version, preventing
-  a browser from combining the new page with files cached by an older release
-- the application shell and frontend assets continue to use no-store response
-  headers as a second layer of protection
-- the corrected home workspace, top navigation, live search, and package panel
-  were rendered and visually checked at the target Retina viewport
-
-No catalog data, saved client work, selections, or retained downloads are
-replaced by this application-only update.
-]]></description>
-            <enclosure url="https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.4/Cranach-Catalog-Finder-1.0.4-arm64.zip" length="285538315" type="application/octet-stream" sparkle:edSignature="A8hDgY76n372GnZakH0R55HhCrXa7qLoEyq08Sh3LEcFlnGyZFGUjutTxXkG4OU8pHXsO68dTxQEPVXFsTFlDA=="/>
+            <enclosure url="https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.5/Cranach-Catalog-Finder-1.0.4-arm64.zip" length="285538315" type="application/octet-stream" sparkle:edSignature="A8hDgY76n372GnZakH0R55HhCrXa7qLoEyq08Sh3LEcFlnGyZFGUjutTxXkG4OU8pHXsO68dTxQEPVXFsTFlDA=="/>
         </item>
         <item>
             <title>1.0.3</title>
@@ -53,6 +69,6 @@ replaced by this application-only update.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: gx2GXXdNt/qJWJySSNarGFMAmdZXG3czjm++2d5Xc2jloKaKJrROTnIwaordtOQpsUA7f/aE1U/bY4tpKCNFDw==
-length: 3706
+edSignature: 8Fje+eMUa6pmLw5DUnD3G4CqUtQC8MuZHXXLYeolj6o3P5eEGIfv3aPNoyzwfJrkjS8NWPju0HrBVvVLNiozAA==
+length: 4887
 -->
