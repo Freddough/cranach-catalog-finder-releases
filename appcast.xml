@@ -6,6 +6,44 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Cranach Catalog Finder</title>
         <item>
+            <title>1.0.6</title>
+            <pubDate>Fri, 04 Sep 2026 17:33:03 -0400</pubDate>
+            <link>https://github.com/Freddough/cranach-catalog-finder-releases/releases/latest</link>
+            <sparkle:version>10007</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Cranach Catalog Finder 1.0.6
+
+This release turns Cranach into a complete Mac application and brings more
+focus to the package-building workspace:
+
+- Cranach now opens in its own resizable app window with a Dock icon and normal
+  Mac menus instead of launching the interface in a browser
+- closing the Cranach window now quits the app cleanly and stops its private
+  local catalog service; reopening the app starts the complete experience again
+- Check for Updates is available from the Cranach Catalog Finder application
+  menu as well as Settings
+- typing on Home now moves the logo and navigation away in one soft transition,
+  bringing search results and Your Selections together at the top of the window
+- Your Selections has a centered empty state and a smaller, connected package
+  details and save area at the bottom
+- result cards now emphasize the product name and exact item number, use clearer
+  descriptions and quieter catalog paths, and show readiness only when an item
+  needs attention
+- unfinished packages are saved in private Application Support storage so the
+  native window and future app updates can restore them reliably
+- downloads from the native window keep safe filenames and never overwrite an
+  existing file in Downloads
+
+Previously downloaded packages, client history, catalog reviews, and catalog
+data remain in place during the update. A draft that was never downloaded and
+exists only inside the old browser's storage cannot be moved automatically into
+the new native window; drafts saved after this update use the durable app store.
+]]></description>
+            <enclosure url="https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.6/Cranach-Catalog-Finder-1.0.6-arm64.zip" length="285643516" type="application/octet-stream" sparkle:edSignature="L66egIH1s04wkdVFpl6t3o0MBbCnPkNlKV92lJ3snZn4ZxbG8FKWZ/Q/z43UshFA1wI2r8hi3rMLtOYvq9+CCA=="/>
+        </item>
+        <item>
             <title>1.0.5</title>
             <pubDate>Fri, 04 Sep 2026 13:29:10 -0400</pubDate>
             <link>https://github.com/Freddough/cranach-catalog-finder-releases/releases/latest</link>
@@ -13,28 +51,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Cranach Catalog Finder 1.0.5
-
-This release makes the package workspace smaller, clearer, and easier to scan:
-
-- the new transparent black Cranach wordmark replaces the boxed logo, with the
-  extra Home-page tagline removed
-- the five workspace tabs are centered in a clean header with catalog status
-  details removed from its left and right edges
-- Your Selections now keeps product choices prominent, moves compact package
-  details and save controls to the bottom, and uses “Package name” in place of
-  “Project or room”
-- the global price section has been removed; each selected product still has
-  its own clear Hide prices or Show prices control
-- Clients, Previous packages, and Settings use shorter headings and tighter
-  spacing so the first useful action appears sooner
-- switching the Catalog from Outline to Cards now loads products immediately
-  instead of leaving an empty view
-
-This is an application-only update. It does not replace catalog data, saved
-client work, current selections, or retained downloads.
-]]></description>
-            <enclosure url="https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.5/Cranach-Catalog-Finder-1.0.5-arm64.zip" length="285561596" type="application/octet-stream" sparkle:edSignature="hkpsYAyoluqsSTt0IqEpuIU9mnx7rXsN25oGfy0OBtvwdIdn1acJ6ki3u3Pu4i+EN7kKMSD6wj/VnLta0U8gCw=="/>
+            <enclosure url="https://github.com/Freddough/cranach-catalog-finder-releases/releases/download/v1.0.6/Cranach-Catalog-Finder-1.0.5-arm64.zip" length="285561596" type="application/octet-stream" sparkle:edSignature="hkpsYAyoluqsSTt0IqEpuIU9mnx7rXsN25oGfy0OBtvwdIdn1acJ6ki3u3Pu4i+EN7kKMSD6wj/VnLta0U8gCw=="/>
         </item>
         <item>
             <title>1.0.4</title>
@@ -69,6 +86,6 @@ client work, current selections, or retained downloads.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 8Fje+eMUa6pmLw5DUnD3G4CqUtQC8MuZHXXLYeolj6o3P5eEGIfv3aPNoyzwfJrkjS8NWPju0HrBVvVLNiozAA==
-length: 4887
+edSignature: Kq1D/K8Yuk/fmGvRTVokqA+QKXNP7s7h0e0b5lMa0JWBEqwFLimct7LbWUeYDNKPv7tM7RD0vR5vKC5sJJDGDg==
+length: 6255
 -->
